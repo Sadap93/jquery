@@ -1,12 +1,17 @@
-$(document).ready(function () {
-  $("button").click(function () {
-    $(".introvert").hide();
+$(document).ready(function(){
+  $("button").click(function(){
+    $("span").hide();
   });
 });
 
-
 /*
+------TASK 6------
 ------TASK 5------
+    $(document).ready(function () {
+      $("button").click(function () {
+        $(".introvert").hide();
+      });
+    });
 ------TASK 4------
     $(document).ready(function(){
       $("button").click(function(){
