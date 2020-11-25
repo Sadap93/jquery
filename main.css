@@ -1,7 +1,22 @@
+
 div {
     width: 100px;
     height: 100px;
     padding: 10px;
-    background-color: SkyBlue;
+    position: relative;
+    background-color: yellow;
     text-align: center;
   }
+
+  /*
+  -------TASK 8-------
+  -------TASK 7-------
+        div {
+            width: 100px;
+            height: 100px;
+            padding: 10px;
+            background-color: SkyBlue;
+            text-align: center;
+          }
+
+  */
