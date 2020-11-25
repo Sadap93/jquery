@@ -1,11 +1,17 @@
 $(document).ready(function(){
-  $("button").click(function(){
-    $("span").hide();
+  $("div").click(function(){
+    $(this).css("background-color", "yellow");
   });
 });
 
 /*
+------TASK 7------
 ------TASK 6------
+      $(document).ready(function(){
+        $("button").click(function(){
+          $("span").hide();
+        });
+      });
 ------TASK 5------
     $(document).ready(function () {
       $("button").click(function () {
