@@ -1,11 +1,17 @@
 $(document).ready(function(){
-  $("div").hover(function(){
-    $(this).animate({left: "500px"}),
-    $(this).animate({left: "0px"});  
+  $("input").keyup(function(){
+    $("span").text($("input").val());
   });
 });
 /*
+------TASK 9------
 ------TASK 8------
+    $(document).ready(function(){
+      $("div").hover(function(){
+        $(this).animate({left: "500px"}),
+        $(this).animate({left: "0px"});  
+      });
+    });
 ------TASK 7------
 $(document).ready(function(){
   $("div").click(function(){
