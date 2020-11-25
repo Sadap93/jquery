@@ -1,10 +1,19 @@
 $(document).ready(function(){
-  $("input").keyup(function(){
-    $("span").text($("input").val());
+  $("ul").on("click", "li", function(){
+    $(this).hide();
   });
-});
+    $("button").click(function(){
+      $("li:last").after("<li>To do do do dooo</li>");
+  });
+  });
 /*
+------TASK 10------
 ------TASK 9------
+    $(document).ready(function(){
+      $("input").keyup(function(){
+        $("span").text($("input").val());
+      });
+    });
 ------TASK 8------
     $(document).ready(function(){
       $("div").hover(function(){
