@@ -1,14 +1,21 @@
 $(document).ready(function(){
-  $("button").click(function(){
-    $(this).fadeOut("slow", function(){
-      alert("Mission completed!");
-    });
+  $("div").click(function(){
+    $(this).animate({height: "50px"}).animate({width: "50px"}).animate({height: "150px"}).animate({width: "150px"});
   });
 });
 
 
+
 /*
+------TASK 16------
 ------TASK 15------
+    $(document).ready(function(){
+      $("button").click(function(){
+        $(this).fadeOut("slow", function(){
+          alert("Mission completed!");
+        });
+      });
+    });
 ------TASK 14------
     $(document).ready(function(){
       $("button").click(function(){
