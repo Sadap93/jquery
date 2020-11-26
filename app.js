@@ -1,10 +1,16 @@
 $(document).ready(function(){
   $("button").click(function(){
-    $(".lovebird").remove();
+    $("div").empty();
   });
-  });
+});
 /*
+------TASK 24-----
 ------TASK 23-----
+    $(document).ready(function(){
+      $("button").click(function(){
+        $(".lovebird").remove();
+      });
+      });
 ------TASK 22-----
     $(document).ready(function(){
       $("button").click(function(){
