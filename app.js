@@ -1,4 +1,13 @@
 $(document).ready(function(){
+  $("button").click(function(){
+  $("div").toggle();
+ });                                  
+});
+/*
+------TASK 11------
+------TASK 10------
+
+$(document).ready(function(){
   $("ul").on("click", "li", function(){
     $(this).hide();
   });
@@ -6,8 +15,6 @@ $(document).ready(function(){
       $("li:last").after("<li>To do do do dooo</li>");
   });
   });
-/*
-------TASK 10------
 ------TASK 9------
     $(document).ready(function(){
       $("input").keyup(function(){
