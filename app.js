@@ -1,14 +1,19 @@
-$(document).ready(function () {
-  $("div").mouseenter(function () {
-    $(this).text("Thanks, it's much better now");
+$(document).ready(function(){
+  $("button").click(function(){
+    $("span").html("<em>even</em>");
   });
-  $("div").mouseleave(function () {
-    $(this).text("Oh nooo, the itching is back!");
 });
-});
-
 /*
+------TASK 18------
 ------TASK 17------
+    $(document).ready(function () {
+      $("div").mouseenter(function () {
+        $(this).text("Thanks, it's much better now");
+      });
+      $("div").mouseleave(function () {
+        $(this).text("Oh nooo, the itching is back!");
+    });
+    });
 ------TASK 16------
     $(document).ready(function(){
       $("div").click(function(){

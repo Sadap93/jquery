@@ -1,15 +1,38 @@
 div {
-  width: 100px;
-  height: 100px;
+  display: inline-block;
   padding: 10px;
-  position: relative;
-  background-color: yellow;
+  margin-bottom: 10px;
   text-align: center;
+  vertical-align: top;
 }
 
+#div1 {
+  background-color: orange;
+  width: 100px;
+  height: 70px;
+}
+
+#div2 {
+  background-color: yellow;
+  width: 140px;
+  height: 70px;
+}
+
+button {
+  display: block;
+}
 
 /*
+--------TASK 18--------
 --------TASK 17--------
+    div {
+      width: 100px;
+      height: 100px;
+      padding: 10px;
+      position: relative;
+      background-color: yellow;
+      text-align: center;
+    }
 
 --------TASK 16--------
     div {
