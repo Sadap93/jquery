@@ -1,10 +1,16 @@
 $(document).ready(function(){
   $("button").click(function(){
-    $("#friend2").before("<div>Whoa, calm down, bros!</div>");
+    $(".lovebird").remove();
   });
-});
+  });
 /*
+------TASK 23-----
 ------TASK 22-----
+    $(document).ready(function(){
+      $("button").click(function(){
+        $("#friend2").before("<div>Whoa, calm down, bros!</div>");
+      });
+    });
 ------TASK 21-----
     $(document).ready(function () {
       $("button").click(function () {
