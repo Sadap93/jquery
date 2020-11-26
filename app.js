@@ -1,13 +1,20 @@
-$(document).ready(function(){
-  $("div").click(function(){
-    $(this).animate({height: "50px"}).animate({width: "50px"}).animate({height: "150px"}).animate({width: "150px"});
+$(document).ready(function () {
+  $("div").mouseenter(function () {
+    $(this).text("Thanks, it's much better now");
   });
+  $("div").mouseleave(function () {
+    $(this).text("Oh nooo, the itching is back!");
+});
 });
 
-
-
 /*
+------TASK 17------
 ------TASK 16------
+    $(document).ready(function(){
+      $("div").click(function(){
+        $(this).animate({height: "50px"}).animate({width: "50px"}).animate({height: "150px"}).animate({width: "150px"});
+      });
+    });
 ------TASK 15------
     $(document).ready(function(){
       $("button").click(function(){
@@ -34,12 +41,12 @@ $(document).ready(function(){
         $(".bunny").hide(2000);
       });
     });
-            
+
 ------TASK 11------
     $(document).ready(function(){
       $("button").click(function(){
       $("div").toggle();
-     });                                  
+     });
     });
 ------TASK 10------
 
@@ -61,7 +68,7 @@ $(document).ready(function(){
     $(document).ready(function(){
       $("div").hover(function(){
         $(this).animate({left: "500px"}),
-        $(this).animate({left: "0px"});  
+        $(this).animate({left: "0px"});
       });
     });
 ------TASK 7------
