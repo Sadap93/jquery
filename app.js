@@ -1,14 +1,19 @@
 $(document).ready(function(){
   $("button").click(function(){
-    $(".bunny").hide(2000);
+    $(".bunny").show("linear");
   });
 });
-        
-                
 
 
 /*
+------TASK 13------
 ------TASK 12------
+    $(document).ready(function(){
+      $("button").click(function(){
+        $(".bunny").hide(2000);
+      });
+    });
+            
 ------TASK 11------
     $(document).ready(function(){
       $("button").click(function(){

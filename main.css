@@ -14,19 +14,45 @@ div {
   background-color: white;
   width: 75px;
   height: 75px;
-}
-
-.fox {
-  background-color: orange;
-  width: 100px;
-  height: 100px;
+  display: none;
 }
 
 button {
   display: block;
 }
-  /*
-  --------TASK 12--------
+
+
+
+/*
+--------TASK 13--------
+--------TASK 12--------
+    body {
+      background-color: green;
+    }
+    
+    div {
+      display: inline-block;
+      padding: 10px;
+      margin-bottom: 10px;
+      text-align: center;
+      vertical-align: top;
+    }
+    
+    .bunny {
+      background-color: white;
+      width: 75px;
+      height: 75px;
+    }
+    
+    .fox {
+      background-color: orange;
+      width: 100px;
+      height: 100px;
+    }
+    
+    button {
+      display: block;
+    }
   --------TASK 11--------
     div {
       width: 100px;
