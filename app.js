@@ -1,10 +1,16 @@
-$(document).ready(function () {
-  $("button").click(function () {
-    $("#friend2").after("<div>Sorry guys, I'm a bit late.</div>");
+$(document).ready(function(){
+  $("button").click(function(){
+    $("#friend2").before("<div>Whoa, calm down, bros!</div>");
   });
 });
 /*
+------TASK 22-----
 ------TASK 21-----
+    $(document).ready(function () {
+      $("button").click(function () {
+        $("#friend2").after("<div>Sorry guys, I'm a bit late.</div>");
+      });
+    });
 ------TASK 20-----
     $(document).ready(function(){
       $("a").click(function(){
