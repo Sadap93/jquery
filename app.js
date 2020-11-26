@@ -1,17 +1,22 @@
-$(document).ready(function(){
-  $("a").click(function(){
-    alert("you are opening: "+$("a").attr("href"));                     
+$(document).ready(function () {
+  $("button").click(function () {
+    $("#friend2").after("<div>Sorry guys, I'm a bit late.</div>");
   });
 });
-
 /*
+------TASK 21-----
 ------TASK 20-----
+    $(document).ready(function(){
+      $("a").click(function(){
+        alert("You are opening: "+$("a").attr("href"));
+      });
+    });
 ------TASK 19------
     $(document).ready(function(){
       $("input").keyup(function(){
         $("span").text(
           $("input").val());
-        
+
       });
     });
 ------TASK 18------
