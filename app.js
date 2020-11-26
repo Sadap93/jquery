@@ -1,12 +1,19 @@
 $(document).ready(function(){
-  $("input").keyup(function(){
-    $("span").text(
-      $("input").val());
-    
+  $("a").click(function(){
+    alert("you are opening: "+$("a").attr("href"));                     
   });
 });
+
 /*
+------TASK 20-----
 ------TASK 19------
+    $(document).ready(function(){
+      $("input").keyup(function(){
+        $("span").text(
+          $("input").val());
+        
+      });
+    });
 ------TASK 18------
       $(document).ready(function(){
         $("button").click(function(){
