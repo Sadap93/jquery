@@ -1,10 +1,20 @@
 $(document).ready(function(){
   $("button").click(function(){
-  $("div").toggle();
- });                                  
+    $(".bunny").hide(2000);
+  });
 });
+        
+                
+
+
 /*
+------TASK 12------
 ------TASK 11------
+    $(document).ready(function(){
+      $("button").click(function(){
+      $("div").toggle();
+     });                                  
+    });
 ------TASK 10------
 
 $(document).ready(function(){
