@@ -1,10 +1,18 @@
 $(document).ready(function(){
-  $("button").click(function(){
-    $("span").html("<em>even</em>");
+  $("input").keyup(function(){
+    $("span").text(
+      $("input").val());
+    
   });
 });
 /*
+------TASK 19------
 ------TASK 18------
+      $(document).ready(function(){
+        $("button").click(function(){
+          $("span").html("<em>even</em>");
+        });
+      });
 ------TASK 17------
     $(document).ready(function () {
       $("div").mouseenter(function () {
