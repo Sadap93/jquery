@@ -1,13 +1,20 @@
 $(document).ready(function(){
   $("button").click(function(){
-    $("#red").animate({left: "300px"});
+    $(this).fadeOut("slow", function(){
+      alert("Mission completed!");
+    });
   });
 });
 
 
-
 /*
+------TASK 15------
 ------TASK 14------
+    $(document).ready(function(){
+      $("button").click(function(){
+        $("#red").animate({left: "300px"});
+      });
+    });
 ------TASK 13------
     $(document).ready(function(){
       $("button").click(function(){
