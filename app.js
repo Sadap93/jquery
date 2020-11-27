@@ -1,10 +1,16 @@
 $(document).ready(function(){
   $("button").click(function(){
-    $("div").toggleClass("blue");
+    $("body").css("background-color", "black");
   });
 });
 /*
+------TASK 28-----
 ------TASK 27-----
+    $(document).ready(function(){
+      $("button").click(function(){
+        $("div").toggleClass("blue");
+      });
+    });
 ------TASK 26-----
     $(document).ready(function(){
       $("button").click(function(){

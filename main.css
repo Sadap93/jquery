@@ -1,27 +1,27 @@
-div {
-  display: inline-block;
-  padding: 10px;
-  margin-bottom: 10px;
-  text-align: center;
-  vertical-align: top;
-  width: 25px;
-  height: 25px;
-  background-color: yellow;
-}
-
-.green {
-  background-color: chartreuse;
-}
-
-.blue {
-  background-color: aqua;
-}
-
-button {
-  display: block;
-}
 /*
 ----------TASK 27----------
+    div {
+      display: inline-block;
+      padding: 10px;
+      margin-bottom: 10px;
+      text-align: center;
+      vertical-align: top;
+      width: 25px;
+      height: 25px;
+      background-color: yellow;
+    }
+    
+    .green {
+      background-color: chartreuse;
+    }
+    
+    .blue {
+      background-color: aqua;
+    }
+    
+    button {
+      display: block;
+    }
 --------TASK 25, 26--------
     div {
       display: inline-block;
