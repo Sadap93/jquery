@@ -1,10 +1,16 @@
 $(document).ready(function(){
-  $("button").click(function(){
-    $("div").empty();
+$("button").click(function(){
+    $(".party-face").addClass("pretty");
   });
 });
 /*
+------TASK 25-----
 ------TASK 24-----
+    $(document).ready(function(){
+      $("button").click(function(){
+        $("div").empty();
+      });
+    });
 ------TASK 23-----
     $(document).ready(function(){
       $("button").click(function(){

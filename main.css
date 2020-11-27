@@ -2,33 +2,53 @@ div {
   display: inline-block;
   padding: 10px;
   margin-bottom: 10px;
-  margin-right: 10px;
   text-align: center;
   vertical-align: top;
   width: 75px;
   height: 100px;
+  background-color: yellow;
 }
 
-#hermione {
-  background-color: chocolate;
-  color: maroon;
-}
-
-#ron {
-  background-color: orangered;
-  color: lightblue;
-}
-
-#harry {
-  background-color: black;
-  color: green;
+.pretty {
+  background-color: chartreuse;
+  color: blue;
 }
 
 button {
   display: block;
 }
 /*
+--------TASK 25--------
 --------TASK 24--------
+    div {
+      display: inline-block;
+      padding: 10px;
+      margin-bottom: 10px;
+      margin-right: 10px;
+      text-align: center;
+      vertical-align: top;
+      width: 75px;
+      height: 100px;
+    }
+    
+    #hermione {
+      background-color: chocolate;
+      color: maroon;
+    }
+    
+    #ron {
+      background-color: orangered;
+      color: lightblue;
+    }
+    
+    #harry {
+      background-color: black;
+      color: green;
+    }
+    
+    button {
+      display: block;
+    }
 --------TASK 23--------
     div {
       display: inline-block;
