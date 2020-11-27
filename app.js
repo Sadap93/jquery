@@ -1,17 +1,21 @@
 $(document).ready(function(){
-  $("button").click(function(){
-    $.post("https://orange.codeberryschool.com/content/classroom-api/jquery-assignment",
-    {
-      number: $("input").val()},
-    function(data){
-      //console.log(data);
-      alert(data["twice-your-value"]);
-    });
-
-  });
+  $("#datepicker").datepicker();
 });
 /*
+------TASK 32-----
 ------TASK 31-----
+    $(document).ready(function(){
+      $("button").click(function(){
+        $.post("https://orange.codeberryschool.com/content/classroom-api/jquery-assignment",
+        {
+          number: $("input").val()},
+        function(data){
+          //console.log(data);
+          alert(data["twice-your-value"]);
+        });
+    
+      });
+    });
 ------TASK 30-----
     $(document).ready(function(){
       $("button").click(function(){
