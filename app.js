@@ -1,10 +1,15 @@
 $(document).ready(function(){
-$("button").click(function(){
-    $(".party-face").addClass("pretty");
+  $("button").click(function(){
+    $(".party-face").removeClass("pretty");
   });
 });
 /*
 ------TASK 25-----
+    $(document).ready(function(){
+    $("button").click(function(){
+        $(".party-face").addClass("pretty");
+      });
+    });
 ------TASK 24-----
     $(document).ready(function(){
       $("button").click(function(){
