@@ -1,11 +1,19 @@
 $(document).ready(function(){
   $("button").click(function(){
-    $("#rocket").width("75px");
-    $("#rocket").height("75px");
+    $.get("https://orange.codeberryschool.com/content/classroom-api/jquery-assignment",function(data){
+      alert("Password: "+data.password)
+    });
   });
 });
 /*
+------TASK 30-----
 ------TASK 29-----
+    $(document).ready(function(){
+      $("button").click(function(){
+        $("#rocket").width("75px");
+        $("#rocket").height("75px");
+      });
+    });
 ------TASK 28-----
     $(document).ready(function(){
       $("button").click(function(){
