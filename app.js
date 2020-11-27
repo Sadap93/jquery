@@ -1,10 +1,17 @@
 $(document).ready(function(){
   $("button").click(function(){
-    $("body").css("background-color", "black");
+    $("#rocket").width("75px");
+    $("#rocket").height("75px");
   });
 });
 /*
+------TASK 29-----
 ------TASK 28-----
+    $(document).ready(function(){
+      $("button").click(function(){
+        $("body").css("background-color", "black");
+      });
+    });
 ------TASK 27-----
     $(document).ready(function(){
       $("button").click(function(){
