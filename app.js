@@ -1,12 +1,25 @@
 $(document).ready(function(){
   $("button").click(function(){
-    $.get("https://orange.codeberryschool.com/content/classroom-api/jquery-assignment",function(data){
-      alert("Password: "+data.password)
+    $.post("https://orange.codeberryschool.com/content/classroom-api/jquery-assignment",
+    {
+      number: $("input").val()},
+    function(data){
+      //console.log(data);
+      alert(data["twice-your-value"]);
     });
+
   });
 });
 /*
+------TASK 31-----
 ------TASK 30-----
+    $(document).ready(function(){
+      $("button").click(function(){
+        $.get("https://orange.codeberryschool.com/content/classroom-api/jquery-assignment",function(data){
+          alert("Password: "+data.password)
+        });
+      });
+    });
 ------TASK 29-----
     $(document).ready(function(){
       $("button").click(function(){
