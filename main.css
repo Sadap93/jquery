@@ -4,21 +4,44 @@ div {
   margin-bottom: 10px;
   text-align: center;
   vertical-align: top;
-  width: 75px;
-  height: 100px;
+  width: 25px;
+  height: 25px;
   background-color: yellow;
 }
 
-.pretty {
+.green {
   background-color: chartreuse;
-  color: blue;
+}
+
+.blue {
+  background-color: aqua;
 }
 
 button {
   display: block;
 }
 /*
+----------TASK 27----------
 --------TASK 25, 26--------
+    div {
+      display: inline-block;
+      padding: 10px;
+      margin-bottom: 10px;
+      text-align: center;
+      vertical-align: top;
+      width: 75px;
+      height: 100px;
+      background-color: yellow;
+    }
+    
+    .pretty {
+      background-color: chartreuse;
+      color: blue;
+    }
+    
+    button {
+      display: block;
+    }
 --------TASK 24--------
     div {
       display: inline-block;

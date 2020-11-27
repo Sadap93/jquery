@@ -1,9 +1,16 @@
 $(document).ready(function(){
   $("button").click(function(){
-    $(".party-face").removeClass("pretty");
+    $("div").toggleClass("blue");
   });
 });
 /*
+------TASK 27-----
+------TASK 26-----
+    $(document).ready(function(){
+      $("button").click(function(){
+        $(".party-face").removeClass("pretty");
+      });
+    });
 ------TASK 25-----
     $(document).ready(function(){
     $("button").click(function(){
